@@ -227,8 +227,7 @@ footer a::before {
         background-color: whitesmoke;
     }
     .shape {
-        position: unset;
-        display: none;
+        border: solid 0px;
     }
     .introduce2 {
         font-size: 40px;
