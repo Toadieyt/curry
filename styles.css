@@ -39,7 +39,7 @@ header a::before {
 header a, footer a, footer p {
     font-family: 'Montserrat', sans-serif;
     position: relative;
-    font-size: 20px;
+    font-size: 40px;
     text-decoration: none;
   }
   
@@ -61,7 +61,7 @@ header a:hover::before, footer a:hover::before {
 
 header h1 {
     font-family: 'Montserrat', sans-serif;
-    font-size: 40px;
+    font-size: 80px;
     margin-left: 50px;
     color: white;
 }
@@ -72,13 +72,34 @@ main {
     align-items: center;
 }
 
-.bg-main-page, .bg2-main-page {
+.bg-main-page, .bg2-main-page, .bg3-main-page {
     width: 100%;
     padding: 0;
     margin: 0;
 }
 
 .introduce {
+    font-size: 25px;
+    width: 40%;
+    right: 4%;
+    top: 405px;
+    position: absolute;
+    font-family: 'Montserrat', sans-serif;
+    color: black;
+    z-index: 1;
+}
+
+.shape {
+    position: absolute;
+    width: 45%;
+    right: 2%;
+    top: 400px;
+    border-bottom: 300px solid white;
+    border-left: 50px solid transparent;
+    height: 0;
+}
+
+.introduce2 {
     font-size: 30px;
     padding: 50px;
     padding-left: 10%;
@@ -190,10 +211,22 @@ footer a::before {
     .title-main-page {
         font-size: 40px;
     }
+    header h1 {
+        font-size: 50px;
+    }
     header a, footer a {
         font-size: 30px;
     }
     .introduce {
+        font-size: 40px;
+        padding: 50px;
+        padding-left: 10%;
+        padding-right: 10%;
+        width: 80%;
+        position: unset;
+        background-color: whitesmoke;
+    }
+    .introduce2 {
         font-size: 40px;
     }
     .team > div:first-child {
