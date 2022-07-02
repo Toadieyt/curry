@@ -24,24 +24,11 @@ header {
     color: white;
 }
 
-.introduce {
-    position: absolute;
-    margin-top: 400px;
-    width: 550px;
-    margin-left: 5%;
-    font-size: 25px;
-    font-family: 'Montserrat', sans-serif;
-    color: white;
-    padding: 10px;
-    background-color: rgba(150,150,150,0.5);
-    border: solid white;
-}
-
 .bg-main-page, .bg2-main-page {
     width: 100%;
 }
 
-.introduce2 {
+.introduce {
     font-size: 20px;
     padding: 30px;
     font-family: 'Montserrat', sans-serif;
@@ -51,8 +38,7 @@ header {
 .about {
     display: flex;
     flex-flow: row wrap;
-    justify-content: center;
-    gap: 150px;
+    justify-content: space-around;
     font-family: 'Montserrat', sans-serif;
 }
 
@@ -74,11 +60,5 @@ header {
 @media (max-width: 1060px) {
     .title-main-page {
         font-size: 40px;
-    }
-
-    .introduce{
-        width: 300px;
-        margin-top: 150px;
-        font-size: 15px;
     }
 }
